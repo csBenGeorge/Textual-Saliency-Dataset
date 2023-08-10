@@ -1,0 +1,27 @@
+import nltk
+nltk.download('gutenberg')
+import nltk
+nltk.download('punkt')
+import nltk
+nltk.download('averaged_perceptron_tagger')
+import nltk
+nltk.download('stopwords')
+import nltk
+nltk.download('maxent_ne_chunker')
+import nltk
+nltk.download('words')
+!pip install transformers
+import random
+import pandas as pd
+import matplotlib.pyplot as plt
+from nltk.corpus import gutenberg
+from nltk.tokenize import word_tokenize
+from nltk.probability import FreqDist
+from nltk.tag import pos_tag
+from nltk.corpus import stopwords
+from collections import defaultdict
+import seaborn as sns
+from wordcloud import WordCloud
+from nltk.chunk import ne_chunk
+
+nvidia -smi
